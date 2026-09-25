@@ -1,0 +1,4 @@
+#!/bin/sh
+export JAVA_HOME="${JAVA_HOME:-C:/Program Files/Java/jdk-21.0.12}"
+SCRIPT_DIR="$(dirname "$0")"
+exec "$SCRIPT_DIR/.tools/apache-maven-3.9.9/bin/mvn" "$@"
