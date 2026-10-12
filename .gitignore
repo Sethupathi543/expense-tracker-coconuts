@@ -1,35 +1,23 @@
-# Build outputs & dependencies
-**/target/
-**/build/
+# Java / Spring Boot
+
+backend/target/
 *.class
 *.jar
-*.war
 
 # Flutter / Dart
+
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
-.pub-cache/
-.pub/
+build/
 
-# Mobile local configs
-**/local.properties
-**/GeneratedPluginRegistrant.java
+# IDE files
 
-# IDE & Editor files
 .idea/
 .vscode/
-*.iml
-*.ipr
-*.iws
 
-# Operating system files
-.DS_Store
-Thumbs.db
-ehthumbs.db
+# Environment variables and secrets
 
-# Logs
-*.log
-
-# Local Tools
-.tools/
+.env
+.env.*
+!.env.example
